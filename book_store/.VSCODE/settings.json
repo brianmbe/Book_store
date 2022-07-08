@@ -1,5 +1,4 @@
 {
-  "python.languageServer": "Pylance",
   "files.associations": {
     "**/*.html": "html",
     "**/templates/*/*.html": "django-html",
@@ -9,5 +8,8 @@
 
   "emmet.includeLanguages": {
     "django-html": "html"
+  },
+  "[django-html]": {
+    "editor.defaultFormatter": "batisteo.vscode-django"
   }
 }
